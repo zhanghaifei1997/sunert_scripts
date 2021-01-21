@@ -1,5 +1,5 @@
 {
-    "name": "Sunert Task Script", 
+    "name": "Sunert Task gallery", 
     "description": "https://github.com/Sunert/Scripts/tree/master/Task", 
     "task": [
         {
@@ -48,7 +48,7 @@
         }, 
         {
             "config": "10 11 8 * * * https://raw.githubusercontent.com/Sunert/sunert_scripts/main/task/sina/sinanews.js, tag=新浪新闻, img-url=https://raw.githubusercontent.com/Orz-3/task/master/sinanews.png, enabled=true", 
-            "addons": "https://raw.githubusercontent.com/Sunert/sunert_scripts/main/task/jd/qx_rewite.txt, tag=sina_rewite, update-interval=-1, opt-parser=false, enabled=true"
+            "addons": "https://raw.githubusercontent.com/Sunert/sunert_scripts/main/task/sina/qx_rewite.txt, tag=sina_rewite, update-interval=-1, opt-parser=false, enabled=true"
         }, 
         {
             "config": "20 11 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true", 
