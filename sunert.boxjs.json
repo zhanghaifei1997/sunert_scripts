@@ -44,7 +44,26 @@
                     "val": false, 
                     "type": "boolean", 
                     "desc": "调试日志开关，默认关闭"
-                }
+                },
+                {
+                    "id": "zqcash",
+                    "name": "提现金额",
+                    "val": "30",
+                    "type": "radios",
+                    "desc": "自动提现金额需和获取提现请求保持一致",
+                    "items": [{
+                       "key": "10",
+                       "label": "10元"
+                       },
+                       {
+                       "key": "30",
+                       "label": "30元"
+                       },
+                       {
+                       "key": "100",
+                       "label": "100元"
+                      }]
+                 }
             ], 
             "repo": "https://github.com/Sunert/sunert_scripts/blob/main/task/youth/youth.js", 
             "icons": [
