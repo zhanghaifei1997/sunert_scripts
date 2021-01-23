@@ -27,7 +27,9 @@
                 "youthheader_zq", 
                 "read_zq", 
                 "red_zq", 
-                "readtime_zq"
+                "readtime_zq",
+                "cashbody_zq",
+                "cashurl_zq"
             ], 
             "author": "@sunert", 
             "settings": [
