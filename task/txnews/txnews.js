@@ -1,6 +1,6 @@
 
 /*
-更新时间: 2021-1-22 18:50
+更新时间: 2021-1-23 09:50
 
 腾讯新闻签到修改版，可以自动阅读文章获取红包，该活动为瓜分百万现金挑战赛，针对幸运用户参与
 
@@ -113,7 +113,8 @@ if (isGetCookie) {
       $.index = i + 1;
       console.log(`-------------------------\n\n开始【腾讯新闻账号${$.index}】`)
       ID = signurlVal.match(/devid=[a-zA-Z0-9_-]+/g)[0]
-      token = signurlVal.split("&mac")[1]
+  
+      token = signurlVal.split("mac")[1]
       await getsign();
       await activity();
       await getTotal();
@@ -281,6 +282,7 @@ function Redpack(red_body) {
       }
       $.post(cashUrl, (error, response, data) => {
         let rcash = JSON.parse(data)
+        $.log(data)
         try{
           if(rcash.data.award.length == 1){
           redpacks = rcash.data.award.num/100
