@@ -284,7 +284,8 @@
             }]
          }]
          },
-        "icons": ["https://github.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/baiduspeed_mini.png", "https://github.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/baiduspeed.png"], "script": "https://raw.githubusercontent.com/Sunert/sunert_scripts/main/task/baiduspeed/baiduspeed.js"
+        "icons": ["https://github.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/baiduspeed_mini.png", "https://github.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/baiduspeed.png"], 
+        "script": "https://raw.githubusercontent.com/Sunert/sunert_scripts/main/task/baiduspeed/baiduspeed.js"
     },
     {
         "id": "txnews",
