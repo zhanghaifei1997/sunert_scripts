@@ -10,7 +10,8 @@
             "name": "新浪微博", 
             "keys": [
                 "sy_payheader_wb", 
-                "sy_token_wb"
+                "sy_token_wb",
+                "wb_nick"
             ], 
             "author": "@sunert", 
             "repo": "https://github.com/Sunert/sunert_scripts/blob/main/task/sina/weibo.js", 
@@ -343,7 +344,8 @@
             "name": "百度极速任务", 
             "keys": [
                 "chavy_cookie_tieba", 
-                "CookieTB"
+                "CookieTB",
+                "baidu_nick"
             ], 
             "author": "@sunert", 
             "repo": "https://github.com/Sunert/sunert_scripts/blob/main/task//baiduspeed/baiduspeed.js", 
