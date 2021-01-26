@@ -379,6 +379,13 @@
                             "label": "100元"
                         }
                     ]
+                },
+                {
+                    "id": "task_baidu", 
+                    "name": "任务开关", 
+                    "val": true, 
+                    "type": "boolean", 
+                    "desc": "除提现和兑换金币外开关，默认开启所有任务"
                 }
             ], 
             "icons": [
