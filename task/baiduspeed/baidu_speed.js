@@ -126,6 +126,7 @@ function userInfo() {
                   }
                 }
                  $.sub = " 昵称:"+username+" 现金:"+ chargemoney+" 金币:"+availablecoin+"元"
+                 $.setdata(username,"baidu_nick")
                  $.log("\n********** 昵称:"+username+ " 现金:"+chargemoney+"元 **********\n");
                 if (Number(chargemoney) >= Number(withcash) && $.time("HH") == "06") {
                    await withDraw(withcash)
