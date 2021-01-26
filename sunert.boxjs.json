@@ -9,9 +9,9 @@
             "id": "weibo", 
             "name": "新浪微博", 
             "keys": [
+                "wb_nick",
                 "sy_payheader_wb", 
                 "sy_token_wb",
-                "wb_nick"
             ], 
             "author": "@sunert", 
             "repo": "https://github.com/Sunert/sunert_scripts/blob/main/task/sina/weibo.js", 
@@ -159,13 +159,14 @@
             "name": "电信套餐查询", 
             "keys": [
                 "china_telecom_authToken_10000", 
-                "china_telecom_cookie"
+                "china_telecom_cookie",
+                "tele_numb"
             ], 
             "settings": [
                 {
                     "id": "Mon", 
                     "name": "查询月份", 
-                    "val": "2020-08", 
+                    "val": "2021-01", 
                     "type": "month", 
                     "desc": "填入账单月份，可查最近六个月，本月账单下月可查"
                 }
@@ -221,10 +222,7 @@
             "keys": [
                 "city", 
                 "citynum", 
-                "cut", 
-                "day_desc", 
-                "hour_desc", 
-                "index_desc"
+                "cut"
             ], 
             "settings": [
                 {
@@ -291,7 +289,8 @@
             "name": "聚看点", 
             "keys": [
                 "jukan_body", 
-                "jukan_name"
+                "jukan_name",
+                "jukan_nick"
             ], 
             "author": "@sunert", 
             "repo": "https://github.com/Sunert/sunert_scripts/blob/main/task/jukan/jukan.js", 
@@ -343,9 +342,10 @@
             "id": "baidu", 
             "name": "百度极速任务", 
             "keys": [
+                "baidu_nick",
+                "cash_baidu",
                 "chavy_cookie_tieba", 
-                "CookieTB",
-                "baidu_nick"
+                "CookieTB"
             ], 
             "author": "@sunert", 
             "repo": "https://github.com/Sunert/sunert_scripts/blob/main/task//baiduspeed/baiduspeed.js", 
@@ -393,6 +393,7 @@
             "id": "txnews", 
             "name": "腾讯新闻", 
             "keys": [
+                "tx_nick",
                 "sy_signurl_txnews", 
                 "sy_cookie_txnews", 
                 "video_txnews"
