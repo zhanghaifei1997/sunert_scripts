@@ -25,6 +25,7 @@
       "id": "youth", 
       "name": "中青看点", 
       "keys": [
+        "zq_nick",
         "youthheader_zq", 
         "read_zq", 
         "red_zq", 
